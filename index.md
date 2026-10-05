@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## Welcome to My Site
+## Welcome to My Capstone Portfolio
 This is the main content of your index page.
 
 ## Recent Posts
