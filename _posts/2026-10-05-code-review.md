@@ -3,6 +3,7 @@ layout: post
 title: "Code Review"
 date: 2026-10-05 12:00:00 -0500
 categories: capstone
+author: Anyka B
 ---
 
 <div align="center">
@@ -14,15 +15,17 @@ categories: capstone
 <div align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/NjldzoWIFnw?si=iViozacpH1R9PU8j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+<hr>
 
 <div align="left">
     <h2 style="text-align: center;">Summary</h2>
     <p>Before implementing any enhancements, I conducted a comprehesive code review for each enhancement artifact. By revewing and evaluating each artifact, I can find bugs, vulnerabilities, formatting errors, and ineffciencies while refreshing my knowledge about the code base. In the video above, I review and highlight my enhancement plan over two different artifacts that I have previous created in my SNHU acedemic career: an appointment manager and course catalog.</p>
 </div>
 
+<hr>
 <div align="left">
     <h2 style="text-align: center;">Appointment Manager</h2>
-    <h3 style="text-align: center;"> Software Design & Engineering and Databases Enhancement</h3>
+    <h3 style="text-align: center;"> Software Design & Engineering</h3>
     <p>Six months ago, I created the entity and logic to manage appointments (Appointment.java and AppointmentService.java), accompanied by a JUnit test suite with over 80% coverage. The entity handled appointment creation and validation, and the business logic handled initializing the appointment list and adding, deleting, and reading it. The artifact is missing a main function to run the application. Overall, the artifact is a very strong framework. The main application code is appropriately separated from the JUnit tests into two distinct folders. The main logic follows typical object-oriented programming standards and the single responsibility principle by keeping validation, getters, and setters in the same constructor file, while Service contains core business logic, such as adding and deleting an appointment.</p>
     <p>In addition not being executable, the application has some minor errors, such as:
     <ul>
@@ -52,7 +55,7 @@ categories: capstone
 </div>
 
 <div align="left">
-    <h2 style="text-align: center;">Databases: Appointment Manager</h2>
+    <h3 style="text-align: center;">Databases</h3>
     <p>To further enhance the appointment codebase, I will integrate a MongoDB database into the application. While a HashMap is exceptionally fast, it is limited by the computer’s RAM and loses all the data when the application restarts. A database will provide data persistence, scalability, and more robust data integrity. In other words, all appointment data will be saved even after the application restarts. If a user adds new data into the system, the database enforces data integrity with schema validation.</p>
 </div>
 
@@ -68,7 +71,8 @@ categories: capstone
 </div>
 
 <div align="left">
-    <h2 style="text-align: center;">Algorithms & Data Structure: Course Catalog </h2>
+    <h2 style="text-align: center;">Course Catalog </h2>
+    <h3 style="text-align: center;">Algorithms & Data Structure</h3>
     <p>The course catalog program reads a course catalog data file and allows users to access them intuitively through a terminal menu. After processing the data file, users can search for a course by course code (e.g., MATH201) or print all computer science courses in alphanumeric order. Each course object is stored in a vector with an average lookup time of O(logN). Although the script is functional with small datasets, the course catalog application lacks structure, organization, and effective data validation. These issues are seen in: </p>
     <ul>
         <li> In processCourseFile <i>(line 63)</i>, the method opens the data file twice, once to get a list of existing course numbers and again to create a list of existing courses</li>

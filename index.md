@@ -4,9 +4,7 @@ title: Home
 ---
 
 ## Welcome to My Capstone Portfolio
-This is the main content of your index page.
 
-## Recent Posts
 <ul>
   {% for post in site.posts %}
     <li>
