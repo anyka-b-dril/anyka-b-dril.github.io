@@ -3,17 +3,15 @@ layout: default
 title: Home
 ---
 
-## Latest Posts
+## Welcome to My Site
+This is the main content of your index page.
 
+## Recent Posts
 <ul>
   {% for post in site.posts %}
     <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
+      <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span> — 
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
