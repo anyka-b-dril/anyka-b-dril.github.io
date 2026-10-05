@@ -31,7 +31,6 @@ categories: capstone
         <li> In AppointmentService, the celebrate success line will print whether or not the appointment is created.</li>
         <li> The variable <i>random</i> in AppointmentService should have an evident name, <i>ex randomInt</i>.</li>
     </ul>
-    </p>
     <p><b>Original Artifact Architecture</b></p>
     <pre><code>/appointment-manager/
 ├── main
@@ -43,12 +42,12 @@ categories: capstone
 </div>
 <div align="left">
     <p><b>Enhancement Idea</b></p>
-    <img src="https://github.com/anyka-b-dril/anyka-b-dril.github.io/blob/main/assets/img/Appointment%20Architecture%20Diagram.png", alt="New Appointment Manager Architecture Diagram">
-    <p> To enhance the appointment codebase in line with software engineering and design, I will implement CRUD operations to separate business logic from data storage and prepare for a later database integration. <p>
+    <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}", alt="New Appointment Manager Architecture Diagram">
+    <p>To enhance the appointment codebase in line with software engineering and design, I will implement CRUD operations to separate business logic from data storage and prepare for a later database integration.</p>
     <ul>
         <li> Define the Appointment Repository (Interface) </li>
-        <li> Implement an in-memory appointment repository <li>
-        <li> Create a simple Terminal UI to make the program interactive <li>
+        <li> Implement an in-memory appointment repository </li>
+        <li> Create a simple Terminal UI to make the program interactive </li>
     </ul>
 </div>
 
@@ -59,7 +58,7 @@ categories: capstone
 
 <div align="left">
     <p><b>Enhancement Idea</b></p>
-    <img src="https://github.com/anyka-b-dril/anyka-b-dril.github.io/blob/main/assets/img/Appointment%20Architecture%20Diagram%20w%20Database.png", alt="New Appointment Manager Architecture Diagram">
+    <img src=" {{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}", alt="New Appointment Manager Architecture Diagram">
     <ul>
         <li> Set up the database environment </li>
         <li> Implement the Mongo repository </li>
@@ -76,7 +75,7 @@ categories: capstone
         <li> Misspelled variable names</li>
         <li> Unused <code>lineNumber</code> variable in Step 1 of <code>processCourseFile</code></li>
         <li> Filepath inside of the Menu method is never used since processCourseFile asks for the filepath locally via <code>cin</code></li>
-        <li> The <code>searchCourse</code> method continues to iterate through the entire course vector even if a match was found
+        <li> The <code>searchCourse</code> method continues to iterate through the entire course vector even if a match was found</li>
         <li> The method<code>processCourseFile</code> uses negative logic in many spots. This contributes to a lack of else statements, which can make the code unclear</li>
         <li> More validation is needed for malformed data inputs, <i>ex improper course ID</i></li>
     </ul>
