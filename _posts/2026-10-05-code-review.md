@@ -42,7 +42,7 @@ categories: capstone
 </div>
 <div align="left">
     <p><b>Enhancement Idea</b></p>
-    <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}", alt="New Appointment Manager Architecture Diagram">
+    <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
     <p>To enhance the appointment codebase in line with software engineering and design, I will implement CRUD operations to separate business logic from data storage and prepare for a later database integration.</p>
     <ul>
         <li> Define the Appointment Repository (Interface) </li>
@@ -58,7 +58,7 @@ categories: capstone
 
 <div align="left">
     <p><b>Enhancement Idea</b></p>
-    <img src=" {{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}", alt="New Appointment Manager Architecture Diagram">
+    <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
     <ul>
         <li> Set up the database environment </li>
         <li> Implement the Mongo repository </li>
