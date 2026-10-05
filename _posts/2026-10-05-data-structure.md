@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Design & Engineering Enhancement"
-date: 2026-10-06 12:00:00 -0500
+date: 2026-10-05 12:00:00 -0500
 categories: capstone
 ---
 
