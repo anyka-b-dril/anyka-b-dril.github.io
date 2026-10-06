@@ -20,7 +20,7 @@ code {
 .post-box {
   display: flex;
   flex-direction: column;
-  padding: 2;
+  padding: 8;
   background-color: #ffffffe8;
   border: 1px solid #e1e4e8;
   border-radius: 8px;
@@ -65,10 +65,4 @@ code {
   -webkit-line-clamp: 5;
   line-clamp: 5;
   -webkit-box-orient: vertical
-}
-
-.box-link {
-  font-size: 0.85rem;
-  font-weight: bold;
-  color: #0066cc
 }

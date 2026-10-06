@@ -8,12 +8,10 @@ title: Home
 <div class="post-boxes">
   {% for post in site.posts %}
     <a href="{{ post.url | relative_url }}" class="post-box">
-      <span class="box-date">{{ post.date | date: "%b %d, %Y" }}</span>
       <h3 class="box-title">{{ post.title }}</h3>
       {% if post.excerpt %}
         <p class="box-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
       {% endif %}
-      <span class="box-link">Read Post &rarr;</span>
-    </a>
+      <span class="box-date">{{ post.date | date: "%b %d, %Y" }}</span>
   {% endfor %}
 </div>
