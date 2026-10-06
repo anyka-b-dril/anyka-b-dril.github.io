@@ -24,7 +24,7 @@ code {
   background-color: #ffffff;
   border: 1px solid #e1e4e8;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
@@ -35,7 +35,7 @@ code {
 
 .post-box:hover {
   transform: translateY(-3px);
-  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-color: #0066cc;
 }
 
