@@ -5,11 +5,13 @@ title: Home
 
 ## Welcome to My Capstone Portfolio
 
-<ul>
+<ul class="post-tabs">
   {% for post in site.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span> — 
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <li class="tab-item">
+      <a href="{{ post.url | relative_url }}" class="tab-link">
+        <span class="tab-title">{{ post.title }}</span>
+        <span class="tab-date">{{ post.date | date: "%b %d, %Y" }}</span>
+      </a>
     </li>
   {% endfor %}
 </ul>
