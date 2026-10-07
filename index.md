@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## Welcome to My Capstone Portfolio
+## Welcome to My Capstone Portfolio!
 
 <div class="post-boxes">
   {% for post in site.posts %}
