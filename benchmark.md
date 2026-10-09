@@ -2,6 +2,7 @@
 layout: default
 title: Benchmark Results
 Author: Anyka B
+permalink: /benchmark/
 ---
 
 <div align="center">
