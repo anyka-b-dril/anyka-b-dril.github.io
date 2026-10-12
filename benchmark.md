@@ -16,25 +16,39 @@ permalink: /benchmark/
     <p>Additionally, I recreated the course catalog program in Java, as Java can be preferred for velocity, code maintainability, and built-in safety features. Refactoring an application to another language is considered a heavy architectural change. C++ and Java vastly differ in their memory management, predictability, compilation times, and platform independence. Because the two languages are so different, it cannot be assumed that the performance will remain identical. Benchmarking helps measure, understand, and mitigate structural shifts.</p>
     <p>These benchmark tests will analyze the efficiency of each structural and algorithmic differences to discover which implementation is the most efficient.</p>
     <h2> Repo </h2>
+    <p> Want to see the original? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/ORIGINAL_courseCatalogue">Original Course Catalog Code</a><p>
+    <p> Curious about my enhancements or the benchmark code? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/Capstone_course_catalog">Enhanced Appointment Manager Code</a><p>
 </div>
 <div align="left">
     <h2>Benchmark Summary</h2>
+    <h3>File Parsing Time</h3>
     <img src="{{ '/assets/img/File_parse_chart.png' | relative_url }}" alt="File Parse Chart">
-    <br>
+    <p>The unordered_map is the most efficient for parsing and validating datasets. It consistently requires the least amount of time, with even 10,000 data entries only taking about 0.64 seconds.</p>
+    <p>The vector and hash map implementation feature a similar overhead and memory reallocations, which take significantly longer to parse and validate as the dataset grows.</p>
+    <h3>Sorting Time (printCatalog and printCompSciCatalog)</h3>
     <img src="{{ '/assets/img/Course_sort_chart.png' | relative_url }}" alt="Course Sort Chart">
+    <p><i>Note: The original course catalog vector implementation does not include the printCatalog feature.</i></p>
     <br>
     <img src="{{ '/assets/img/CompSci_chart.png' | relative_url }}" alt="CompSci Course Sort Chart">
-    <br>
+    <p>unordered_map outperforms all other data structures in sorting tasks.</p>
+    <p>The vector performs very poorly when sorting complex structural tasks. While it's mark is comparative for small datasets (ex: 1000k entries), its performance sharply degrades with larger datasets, spiking to 24,783.75 ms at 10,000 entries, or 583.15 times longer than the unordered_map.</p>
+    <h3>Lookup Time</h3>
     <img src="{{ '/assets/img/Key_value_lookup_chart.png' | relative_url }}" alt="Key-value lookup chart">
-    <br>
+    <p>The Java hashmap is the fastest for key-value lookups. It achieves the lowest execution time across all entry sizes.</p>
+    <p>The C++ unordered_map is moderately fast. This is due to structural bottlenecks such as frequent heap allocations, cache misses, and hashing overhead.</p>
+    <p>The vector scales extremely poorly for lookups due to O(n) linear search performance. Every lookup requires a linear search, checking the first element in the list until it finds a match. If there are 1,000 valid courses, the application might need to make 1,000 comparisons.</p>
+    <h3>Cold-Start vs. Warm-Start Execution</h3>
     <img src="{{ '/assets/img/1k_execution_chart.png' | relative_url }}" alt="1k execution chart">
     <br>
     <img src="{{ '/assets/img/5k_execution_chart.png' | relative_url }}" alt="5k execution chart">
     <br>
     <img src="{{ '/assets/img/10k_execution_chart.png' | relative_url }}" alt="10k execution chart">
+    <p>Across the 1k, 5k, and 10k datasets, the execution benchmark trials performed consistently. The stability indicates low variance across individual runs and data structures.</p>
+    <p>The Java hash map suffers from massive runtime overhead in all execution trials, making it sit in a higher magnitude compared to the vector and unordered_map.</p>
+    <p>The vector and unordered_map are closely matched. The vector performs slightly better as its contiguous memory allows it to cache sequential data for easy, high-speed access.</p>
     <br>
     <h2>Conclusion</h2>
-    <p>
+    <p>The unordered_map provides the best balanced overall performance, specifically excelling at dataset parsing, validation, and sorting operations. While the Java hash map excels in lookups with a 34.23% speed improvement in comparison, the difference in negligible for a practical application. On the other hand, the vector implementation performed poorly for large-scale lookups or sorting workflows where dataset size scales beyond a few thousand entries, making the original application outdated and clunky in comparison.</p>
     <h2>Benchmark Data</h2>
     <h3>File Parsing Time</h3>
     <p>Metric: Input/Output parsing and object instantiation efficiency</p>
@@ -702,4 +716,12 @@ permalink: /benchmark/
     </table>
     <hr>
 </div>
-
+<hr>
+<div align="center">
+    <h1>References</h1>
+</div>
+<div align="left">
+  <p>Ferreira, C. (2020, April 29). 8 Ways to Measure Execution Time in C/C++. 8 Ways to Measure Execution Time in C/C++ | Level Up Coding. https://levelup.gitconnected.com/8-ways-to-measure-execution-time-in-c-c-48634458d0f9?gi=7ad643cbb92c </p>
+  <p>GeeksforGeeks. (2026, July 4). Measure execution time of a function in C++. https://www.geeksforgeeks.org/cpp/measure-execution-time-function-cpp/ </p>
+  <p>Johnny’s Software Lab. (2025, December 6). Deep Dive in Java vs C++ Performance. Deep Dive in Java vs C++ Performance - Johnny’s Software Lab. https://johnnysswlab.com/deep-dive-in-java-vs-c-performance/ </p>
+  <p>Webeyez. (2026). How to Calculate Execution Time in Java: A Practical, Data-Driven Guide. Webeyez Insights. https://webeyez.com/insights/guides/how-to-calculate-execution-time-in-java </p>
