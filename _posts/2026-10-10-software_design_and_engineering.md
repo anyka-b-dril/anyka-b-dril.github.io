@@ -66,4 +66,4 @@ excerpt: "The Blueprint Upgrade: How I Rewrote My Appointment Manager’s Archit
     <p>Lastly, my project wasn't configured to run JUnit tests automatically. The project architecture was misconfigured; instead of having a src/main/java and src/test/java path, the main and test folders were at the same directory level as src. This small mistake made it impossible for Maven to find and run the unit tests under the Surefire Maven plugin. Ultimately, I had two choices: fix the path structure or configure the build path explicitly. I decided to continue fixing the file structure to stay consistent and retain native tooling support.</p>
     <!-- New code link -->
     <h3>Repo</h3>
-    <p> Like what you see? Check out the repository: <a href="https://github.com/anyka-b-dril/appointment-manager-architecture/tree/main/Capstone_AppointmentManager">Enhanced Appointment Manager Code</a><p></div>
+    <p> Like what you see? Check out the repository: <a href="https://github.com/anyka-b-dril/appointment-manager-architecture/tree/main/Capstone_AppointmentManager">Enhanced Appointment Manager Code</a><p>
