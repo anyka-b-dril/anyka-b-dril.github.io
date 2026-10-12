@@ -34,8 +34,7 @@ excerpt: "The Structural Showdown: Upgrading Data Structures"
     <p>I learned the most while creating the execution performance benchmarks. I had never coded benchmarks before, so creating manual tests let me explore and experiment with timing functions, measure processes, and natively shuffle data structure values. For much of the process, I was unsure how to make the benchmark tests isolated yet repeatable. The most surprising part was needing to prevent dead code elimination, where modern compilers aggressively optimize code when the result is predictable (Azad, 2025). By assigning the volatile type to a variable holding a process output, the compiler is forced not to optimize the code segment. Java also has volatile; however, it is used for multithreading synchronization, not hardware interaction.</p>
     <!-- New code link -->
     <h3>Repo</h3>
-    <p> Like what you see? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/Capstone_course_catalog">Enhanced Appointment Manager Code</a><p>
-</div>
+    <p> Like what you see? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/Capstone_course_catalog">Enhanced Appointment Manager Code</a><p></div>
 
 <div align="center">
     <h1>References</h1>
