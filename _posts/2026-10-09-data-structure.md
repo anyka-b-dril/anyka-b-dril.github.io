@@ -22,6 +22,7 @@ excerpt: "The Structural Showdown: Upgrading Data Structures"
     <h2>Enhanced Artifact</h2>
     <!-- Demo video link -->
     <h3>Demo</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-RIh88OgtG0?si=Clx0jJdQ_EeQaKI3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <!-- link charts tables and graphs -->
     <p>Check out the benchmark tests to see which of the three applications is the most efficient: <a href="/benchmark/">Course Catalog Benchmark</a></p>
     <br>
