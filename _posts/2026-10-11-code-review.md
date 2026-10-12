@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code Review"
-date: 2026-10-05 12:00:00 -0500
+date: 2026-10-11 12:00:00 -0500
 categories: capstone
 author: Anyka B
 excerpt: "Better Code, Better Developer"
@@ -63,11 +63,11 @@ excerpt: "Better Code, Better Developer"
 <div align="left">
     <p><b>Enhancement Idea</b></p>
     <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
-    <br>
+    <p></p>
     <img src="{{ '/assets/img/Appointment_Database_Architecture_Diagram.png' | relative_url }}" alt="New Appointment Manager DB Architecture Diagram">
-    <br>
+    <p></p>
     <img src="{{ '/assets/img/Database_Schema_Design.png' | relative_url }}" alt="New Appointment Manager Database Schema Diagram">
-    <br>
+    <p></p>
     <ul>
         <li> Set up the database environment </li>
         <li> Implement the Mongo repository </li>

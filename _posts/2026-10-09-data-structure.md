@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Structures & Algorithms Enhancement"
-date: 2026-10-05 12:00:00 -0500
+date: 2026-10-09 12:00:00 -0500
 categories: capstone
 author: Anyka B
 excerpt: "The Structural Showdown: Upgrading Data Structures"
