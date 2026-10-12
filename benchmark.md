@@ -20,13 +20,21 @@ permalink: /benchmark/
 <div align="left">
     <h2>Benchmark Summary</h2>
     <img src="{{ '/assets/img/File_parse_chart.png' | relative_url }}" alt="File Parse Chart">
+    <br>
     <img src="{{ '/assets/img/Course_sort_chart.png' | relative_url }}" alt="Course Sort Chart">
-    <img src="{{ '/assets/img/CompSci_chart_chart.png' | relative_url }}" alt="CompSci Course Sort Chart">
-    <img src="{{ '/assets/img/key_value_lookup_chart.png' | relative_url }}" alt="Key-value lookup chart">
+    <br>
+    <img src="{{ '/assets/img/CompSci_chart.png' | relative_url }}" alt="CompSci Course Sort Chart">
+    <br>
+    <img src="{{ '/assets/img/Key_value_lookup_chart.png' | relative_url }}" alt="Key-value lookup chart">
+    <br>
     <img src="{{ '/assets/img/1k_execution_chart.png' | relative_url }}" alt="1k execution chart">
+    <br>
     <img src="{{ '/assets/img/5k_execution_chart.png' | relative_url }}" alt="5k execution chart">
+    <br>
     <img src="{{ '/assets/img/10k_execution_chart.png' | relative_url }}" alt="10k execution chart">
+    <br>
     <h2>Conclusion</h2>
+    <p>
     <h2>Benchmark Data</h2>
     <h3>File Parsing Time</h3>
     <p>Metric: Input/Output parsing and object instantiation efficiency</p>

@@ -4,6 +4,7 @@ title: "Code Review"
 date: 2026-10-05 12:00:00 -0500
 categories: capstone
 author: Anyka B
+excerpt: "Better Code, Better Developer"
 ---
 
 <div align="center">
@@ -19,7 +20,7 @@ author: Anyka B
 
 <div align="left">
     <h2 style="text-align: center;">Summary</h2>
-    <p>Before implementing any enhancements, I conducted a comprehesive code review for each enhancement artifact. By revewing and evaluating each artifact, I can find bugs, vulnerabilities, formatting errors, and ineffciencies while refreshing my knowledge about the code base. In the video above, I review and highlight my enhancement plan over two different artifacts that I have previous created in my SNHU acedemic career: an appointment manager and course catalog.</p>
+    <p>Before implementing any enhancements, I conducted a comprehensive code review for each enhancement artifact. By reviewing and evaluating each artifact, I can find bugs, vulnerabilities, formatting errors, and inefficiencies while refreshing my knowledge about the code base. In the video above, I review and highlight my enhancement plan over two different artifacts that I have previous created in my SNHU academic career: an appointment manager and course catalog.</p>
 </div>
 
 <hr>
@@ -45,7 +46,7 @@ author: Anyka B
 </div>
 <div align="left">
     <p><b>Enhancement Idea</b></p>
-    <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
+    <img src="{{ '/assets/img/Appointment_Architecture_Diagram.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
     <p>To enhance the appointment codebase in line with software engineering and design, I will implement CRUD operations to separate business logic from data storage and prepare for a later database integration.</p>
     <ul>
         <li> Define the Appointment Repository (Interface) </li>
@@ -62,6 +63,8 @@ author: Anyka B
 <div align="left">
     <p><b>Enhancement Idea</b></p>
     <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
+    <img src="{{ '/assets/img/Appointment_Database_Architecture_Diagram.png' | relative_url }}" alt="New Appointment Manager DB Architecture Diagram">
+    <img src="{{ '/assets/img/Database_Schema_Design.png' | relative_url }}" alt="New Appointment Manager Database Schema Diagram">
     <ul>
         <li> Set up the database environment </li>
         <li> Implement the Mongo repository </li>
@@ -93,6 +96,6 @@ author: Anyka B
         <li> File read and parse time </li>
         <li> Sorting time </li>
         <li> Key-value lookup time </li>
-        <li> Memory mangement  </li>
+        <li> Memory management  </li>
     </ul>
 </div>

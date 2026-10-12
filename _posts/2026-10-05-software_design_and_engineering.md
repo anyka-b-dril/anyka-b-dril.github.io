@@ -29,10 +29,6 @@ excerpt: "The Blueprint Upgrade: How I Rewrote My Appointment Manager’s Archit
     <!-- Original codebase link -->
     <h3>Repo</h3>
     <p> Want to see more? Check out the repository: <a href="https://github.com/anyka-b-dril/appointment-manager-architecture/tree/main/ORIGINAL_appointment_manager">Original Appointment Manager Code</a><p>
-
-</div>
-
-<div align="left">
     <h2>Enhanced Artifact</h2>
     <hr>
     <h3>Enhanced Architecture</h3>
@@ -71,5 +67,4 @@ excerpt: "The Blueprint Upgrade: How I Rewrote My Appointment Manager’s Archit
     <!-- New code link -->
     <h3>Repo</h3>
     <p> Like what you see? Check out the repository: <a href="https://github.com/anyka-b-dril/appointment-manager-architecture/tree/main/Capstone_AppointmentManager">Enhanced Appointment Manager Code</a><p>
-
 </div>
