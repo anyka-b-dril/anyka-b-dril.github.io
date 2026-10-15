@@ -51,13 +51,16 @@ excerpt: "Better Code, Better Developer"
 </div>
 <div align="left">
     <p><b>Enhancement Idea</b></p>
+    <p style="text-align: center;"><b>Architecture Diagram</b></p>
     <img src="{{ '/assets/img/Appointment_Architecture_Diagram.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
+    <br>
     <p>To enhance the appointment codebase in line with software engineering and design, I will implement CRUD operations to separate business logic from data storage and prepare for a later database integration.</p>
     <ul>
         <li> Define the Appointment Repository (Interface) </li>
         <li> Implement an in-memory appointment repository </li>
         <li> Create a simple Terminal UI to make the program interactive </li>
     </ul>
+    <hr>
 </div>
 
 <div align="left">
@@ -67,10 +70,13 @@ excerpt: "Better Code, Better Developer"
 
 <div align="left">
     <p><b>Enhancement Idea</b></p>
+    <p style="text-align: center;"><b>Architecture Diagram</b></p>
     <img src="{{ '/assets/img/Appointment_Architecture_Diagram_w_Database.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
     <p></p>
+    <p style="text-align: center;"><b>Database Architecture Diagram</b></p>
     <img src="{{ '/assets/img/Appointment_Database_Architecture_Diagram.png' | relative_url }}" alt="New Appointment Manager DB Architecture Diagram">
     <p></p>
+    <p style="text-align: center;"><b>Database Schema Diagram</b></p>
     <img src="{{ '/assets/img/Database_Schema_Design.png' | relative_url }}" alt="New Appointment Manager Database Schema Diagram">
     <p></p>
     <ul>
@@ -79,6 +85,7 @@ excerpt: "Better Code, Better Developer"
         <li> Implement Object-to-Document Helpers </li>
         <li> Verify and update JUnit testing suite </li>
     </ul>
+    <hr>
 </div>
 
 <div align="left">
