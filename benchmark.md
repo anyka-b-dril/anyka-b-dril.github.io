@@ -22,7 +22,7 @@ permalink: /benchmark/
     <p>These benchmark tests will analyze the efficiency of each structural and algorithmic differences to discover which implementation is the most efficient.</p>
     <h2> Repo </h2>
     <p> Want to see the original? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/ORIGINAL_courseCatalogue">Original Course Catalog Code</a><p>
-    <p> Curious about my enhancements or the benchmark code? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/Capstone_course_catalog">Enhanced Appointment Manager Code</a><p></div>
+    <p> Curious about my enhancements or the benchmark code? Check out the repository: <a href="https://github.com/anyka-b-dril/course-catalog/tree/main/Capstone_course_catalog">Enhanced Appointment Manager Code</a><p>
 <div align="left">
     <h2>Benchmark Summary</h2>
     <h3>File Parsing Time</h3>

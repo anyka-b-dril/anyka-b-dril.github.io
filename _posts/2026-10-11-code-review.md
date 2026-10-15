@@ -53,7 +53,7 @@ excerpt: "Better Code, Better Developer"
     <p><b>Enhancement Idea</b></p>
     <p style="text-align: center;"><b>Architecture Diagram</b></p>
     <img src="{{ '/assets/img/Appointment_Architecture_Diagram.png' | relative_url }}" alt="New Appointment Manager Architecture Diagram">
-    <br>
+    <p></p>
     <p>To enhance the appointment codebase in line with software engineering and design, I will implement CRUD operations to separate business logic from data storage and prepare for a later database integration.</p>
     <ul>
         <li> Define the Appointment Repository (Interface) </li>
