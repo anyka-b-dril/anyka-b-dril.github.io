@@ -7,6 +7,11 @@ author: Anyka B
 excerpt: "The Blueprint Upgrade: How I Rewrote My Appointment Manager’s Architecture"
 ---
 
+<!--Back to home page link -->
+<div align="left">
+    <a href="{{ '/' | relative_url }}"><-Back</a>
+</div>
+
 <div align="center">
     <h1>Appointment Manager</h1>
 </div>

@@ -5,6 +5,11 @@ Author: Anyka B
 permalink: /benchmark/
 ---
 
+<!--Back to post link -->
+<div align="left">
+  <a href="{{ post_url 2026-10-09-data-structure }}"><-Back</a>
+</div>
+
 <div align="center">
     <h1>Course Catalog Benchmarks</h1>
 </div>

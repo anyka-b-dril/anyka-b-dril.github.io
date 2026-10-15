@@ -7,6 +7,11 @@ author: Anyka B
 excerpt: "The Structural Showdown: Upgrading Data Structures"
 ---
 
+<!--Back to home page link -->
+<div align="left">
+    <a href="{{ '/' | relative_url }}"><-Back</a>
+</div>
+
 <div align="center">
     <h1>Course Catalog</h1>
 </div>

@@ -7,6 +7,11 @@ author: Anyka B
 excerpt: "Better Code, Better Developer"
 ---
 
+<!--Back to home page link -->
+<div align="left">
+    <a href="{{ '/' | relative_url }}"><-Back</a>
+</div>
+
 <div align="center">
     <h1>Code Review</h1>
 </div>
