@@ -32,7 +32,7 @@ excerpt: "The Structural Showdown: Upgrading Data Structures"
     <p></p>
     <!-- link charts tables and graphs -->
     <h3>Performance Benchmarks</h3>
-    <p><b>Check out the benchmark tests to see which of the three applications is the most efficient: <a href="/benchmark/">Course Catalog Benchmark</b></a></p>
+    <p><b>Check out the benchmark tests to see which of the three applications is the most efficient: <a href="/benchmark/">Course Catalog Benchmark</a></b></p>
     <br>
     <!-- Narrative continued  -->
     <p>In this enhancement, I improved the application performance by updating the underlying data structure from a vector to an unordered map, C++’s unofficial hash map. The original vector implementation required a linear search to return a single course, which checked each course sequentially to find a matching ID. While this solution works well for small data sets, lookup times grow with the dataset size, meaning ten thousand course entries could require ten thousand lookups. The hash map uses key hashing to perform lookups consistently, regardless of the catalog size. For example, a single C++ lookup in a small dataset takes a vector an average of 3 μs, while a hash map takes an average of 0.5 μs—an 83% reduction in execution time! The hash map eliminated many manual code iterations required for the loop-based linear search, reducing direct data access to a single line: catalog.find(id) or catalog.get(id). This data structure enhancement shows my awareness of complexity and my ability to identify bottlenecks and choose a more appropriate associative container.</p>

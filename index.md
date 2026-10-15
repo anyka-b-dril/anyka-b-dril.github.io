@@ -17,4 +17,3 @@ title: Home
         {% endif %}
       <span class="box-date">{{ post.date | date: "%b %d, %Y" }}</span>
   {% endfor %}
-</div>

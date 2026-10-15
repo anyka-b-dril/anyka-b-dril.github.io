@@ -60,3 +60,30 @@ code {
   flex-grow: 1;
   line-height: 1.5;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  min-width: 400px;
+}
+
+th {
+  background-color: #ffffff;
+  color: #1b1f23;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px, 15px;
+}
+
+td {
+  padding: 12, 15px;
+  color: #1b1f23;
+  border: 1px solid #1b1f23;
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #0066cc;
+}
