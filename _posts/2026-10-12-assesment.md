@@ -9,7 +9,7 @@ excerpt: "Start Here: A Look Into My Academic Journey"
 
 <!--Back to home page link -->
 <div align="left">
-<a href="/index/"><-Back</a>
+<a href="{{ '/' | relative_url }}"><-Back</a>
 </div>
 <div align="center">
     <h1>Self-Assessment</h1>
