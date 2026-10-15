@@ -7,7 +7,7 @@ permalink: /benchmark/
 
 <!--Back to post link -->
 <div align="left">
-  <a href="{{ post_url 2026-10-09-data-structure }}"><-Back</a>
+  <a href="{{ post_url capstone/2026-10-09-data-structure }}"><-Back</a>
 </div>
 
 <div align="center">
