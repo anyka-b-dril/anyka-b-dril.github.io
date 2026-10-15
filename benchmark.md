@@ -13,7 +13,7 @@ permalink: /benchmark/
 <div align="center">
     <h1>Course Catalog Benchmarks</h1>
 </div>
-<br>
+<hr>
 
 <div align="left">
     <p>Benchmark testing is a standardized evaluation used to measure and compare the performance, quality, or efficiency of a system, application, program, or function. These tests establish a performance baseline by measuring metrics such as execution speed, latency, throughput, and memory usage. Benchmark tests proves whether a code optimization or enhancement actually improved the application speed and discover any performance bugs.</p>

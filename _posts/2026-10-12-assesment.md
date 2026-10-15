@@ -10,6 +10,7 @@ excerpt: "Start Here: A Look Into My Academic Journey"
 <!--Back to home page link -->
 <div align="left">
 <a href="{{ '/' | relative_url }}"><-Back</a>
+<p></p>
 </div>
 <!-- Post -->
 <div align="left">
